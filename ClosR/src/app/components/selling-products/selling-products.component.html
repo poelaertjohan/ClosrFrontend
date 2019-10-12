@@ -1,1 +1,13 @@
-<p>selling-products works!</p>
+<div id="productsHeader">
+  <h1>Mijn producten</h1>
+  <button id="AddButton" mat-raised-button color="primary">
+    Voeg een product toe
+  </button>
+</div>
+<hr />
+
+<div id="sellingProducts">
+  <div *ngFor="let object of objecten">
+    <app-selling-product [object]="object"></app-selling-product>
+  </div>
+</div>

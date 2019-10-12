@@ -1,0 +1,22 @@
+.HomeButton {
+  margin: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  overflow: hidden;
+  width: 20rem;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeContainer {
+  padding-top: 20rem;
+  height: 100%;
+}
+
+#HomeHeader {
+  text-align: center;
+}

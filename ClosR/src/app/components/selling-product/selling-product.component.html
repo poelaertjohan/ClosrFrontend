@@ -1,0 +1,18 @@
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title> {{ object.name }}</mat-card-title>
+    <mat-card-subtitle>€ {{ object.price }} </mat-card-subtitle>
+    <div id="editIcon">
+      <i class="fa fa-edit fa-10x"></i>
+    </div>
+  </mat-card-header>
+  <hr />
+  <div id="CardContent">
+    <img id="CardImage" mat-card-image src="{{ object.imageSource }}" />
+    <mat-card-content>
+      <p id="cardDescription">
+        {{ object.description }}
+      </p>
+    </mat-card-content>
+  </div>
+</mat-card>

@@ -1,0 +1,16 @@
+#sellingProducts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#productsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#AddButton {
+  height: 2.2rem;
+}
