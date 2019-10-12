@@ -1,4 +1,6 @@
 <div id="homeContainer">
+  <img src="../../../assets/img/logoClosr.jpg" alt="logo" />
+
   <div id="HomeHeader">
     <h1>Wie ben jij?</h1>
   </div>
@@ -7,8 +9,10 @@
     <button class="HomeButton" mat-flat-button color="primary">
       Ik wil iets kopen
     </button>
-    <button class="HomeButton" mat-flat-button color="accent">
-      Ik wil iets verkopen
-    </button>
+    <a routerLink="/products" routerLinkActive="active">
+      <button class="HomeButton" mat-flat-button color="accent">
+        Ik wil iets verkopen
+      </button>
+    </a>
   </div>
 </div>
